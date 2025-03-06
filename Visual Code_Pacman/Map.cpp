@@ -1,5 +1,5 @@
 // map.cpp
-#include "map.h"
+#include "Map.h"
 #include <iostream>
 #include <cstring> // Include for memcpy
 
@@ -18,8 +18,7 @@ Map::Map()
         {'#', 'G', '.', '.', '.', '.', '.', '.', 'P', '#'},
         {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#'}};
 
-    // Copy the array correctly
-    std::memcpy(layout, tempLayout, sizeof(tempLayout));
+    std::copy(&tempLayout[0][0], &tempLayout[0][0] + WIDTH * HEIGHT, &layout[0][0]);
 }
 
 void Map::render()
