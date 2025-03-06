@@ -5,9 +5,9 @@
 
 # Detail Ikon:
 
-"P" = Icon untuk Pacman
-"G" = Icon untuk Ghost
-"#" = Wall
-"." = Pattern
+"P" = Icon untuk Pacman <br>
+"G" = Icon untuk Ghost <br>
+"#" = Wall <br>
+"." = Pattern <br>
 
 # Control: WASD
